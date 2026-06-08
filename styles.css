@@ -23,7 +23,8 @@ img{max-width:100%;display:block}
   top: 0;
   z-index: 50;
   /* Un poco más traslúcido para potenciar el efecto blur de fondo */
-  background: rgba(7, 24, 22, 0.85); 
+  background: rgba(9, 33, 30, 1);
+  /*background: rgba(0, 73, 47, 1);  */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   /* Línea inferior sutil con el tono dorado de la marca con opacidad baja */
@@ -36,12 +37,12 @@ img{max-width:100%;display:block}
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0; /* Mayor altura vertical para que el logo "respire" */
+  padding: 20px 0; /* Mayor altura vertical para que el logo "respire" */
   gap: 24px;
 }
 
 .brand img {
-  height: 52px; /* Reducido ligeramente para mayor sutileza y sofisticación */
+  height: 100px; /* Reducido ligeramente para mayor sutileza y sofisticación */
   width: auto;
   border-radius: 6px; /* Bordes ligeramente más redondeados para suavizar esquinas */
   transition: transform 0.3s ease;
